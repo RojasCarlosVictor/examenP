@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="cr_estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel o Tijera</h1>
+        <button onclick="jugar('piedra')">Piedra</button>
+        <button onclick="jugar('papel')">Papel</button>
+        <button onclick="jugar('tijera')">Tijera</button>
+
+        <!-- mostrar el resultado del juego y la puntuación -->
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+
+        <h2>Puntuación:</h2>
+        <p id="puntuacion">0 - 0</p>
+    </div>
+
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="cr_script.js"></script>
+</body>
+</html>
